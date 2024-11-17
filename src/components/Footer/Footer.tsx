@@ -46,7 +46,7 @@ export function Footer() {
           <img src={telegram} alt="telegram" />
         </a>
         <a
-          href="https://www.instagram.com/mr_innocent.9"
+          href="https://www.instagram.com/harinath_akuleti"
           target="_blank"
           rel="noreferrer"
         >
