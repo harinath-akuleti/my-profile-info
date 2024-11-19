@@ -86,7 +86,7 @@ export function Project() {
               </svg>
               <div className="project-links">
                 <a
-                  href="https://github.com/sibbala-potheesh/manufac-master"
+                  href="https://github.com/harinath-akuleti/manufacture-master"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -145,7 +145,7 @@ export function Project() {
               </svg>
               <div className="project-links">
                 <a
-                  href="https://github.com/sibbala-potheesh"
+                  href="https://github.com/harinath-akuleti"
                   target="_blank"
                   rel="noreferrer"
                 >
