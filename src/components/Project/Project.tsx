@@ -29,6 +29,129 @@ export function Project() {
               </svg>
               <div className="project-links">
                 <a
+                  href="https://github.com/harinath-akuleti"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={githubIcon} alt="Visit GitHub repository" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>
+                {" "}
+                E-Commerce Website and Mobile Application (Customer and Admin
+                Apps)
+              </h3>
+              <p>
+                Developed a mobile-responsive e-commerce platform featuring both
+                customer and admin apps. The customer app allows users to browse
+                products, manage their cart, and complete secure payments via
+                Razorpay. The admin app offers product and user management with
+                role-based access. Integrated Google Maps for location
+                auto-complete and social login for easy admin authentication.
+                The platform is cross-platform compatible, deployed on Android
+                and iOS using Ionic and Capacitor.
+              </p>
+            </div>
+
+            <footer>
+              {" "}
+              <ul className="tech-list">
+                {" "}
+                <li>Ionic</li> <li>Capacitor</li> <li>Android Studio</li>
+                <li> Razorpay SDK</li>
+                <li>Google Maps API </li>
+                <li>Firebase</li>{" "}
+              </ul>{" "}
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg
+                width="50"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#23ce6b"
+                strokeWidth="1"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                {" "}
+                <title>Folder</title>{" "}
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>{" "}
+              </svg>
+              <div className="project-links">
+                <a
+                  href="https://github.com/harinath-akuleti"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={githubIcon} alt="Visit GitHub repository" />
+                </a>
+                <a
+                  href="https://staging.di3540ht7cw67.amplifyapp.com/demo"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src={externalLink}
+                    alt="Multilingual JSON Object Generator Using Angular"
+                  />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3> Multilingual JSON Object Generator Using Angular</h3>
+              <p>
+                Developed a web application with Angular to generate
+                language-specific JSON objects for i18n (internationalization).
+                The tool allows users to input a JSON structure, translate its
+                values into a selected language using Google Translate API, and
+                output a translated JSON object. It features dynamic language
+                selection and real-time API integration for translations. The
+                application automates the creation of multilingual JSON objects,
+                reducing manual effort and boosting team productivity in
+                multilingual feature implementations.
+              </p>
+            </div>
+
+            <footer>
+              {" "}
+              <ul className="tech-list">
+                {" "}
+                <li>Angular</li> <li>TypeScript</li>{" "}
+                <li>Google Translate API </li>{" "}
+              </ul>{" "}
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg
+                width="50"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#23ce6b"
+                strokeWidth="1"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                {" "}
+                <title>Folder</title>{" "}
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>{" "}
+              </svg>
+              <div className="project-links">
+                <a
                   href="https://github.com/harinath-akuleti/weather-info"
                   target="_blank"
                   rel="noreferrer"
