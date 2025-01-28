@@ -35,11 +35,17 @@ export function Project() {
                 >
                   <img src={githubIcon} alt="Visit GitHub repository" />
                 </a>
+                <a
+                  href="https://weather-info-seven.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={externalLink} alt="Visit weather application" />
+                </a>
               </div>
             </header>
             <div className="body">
               <h3>
-                {" "}
                 E-Commerce Website and Mobile Application (Customer and Admin
                 Apps)
               </h3>
@@ -59,10 +65,8 @@ export function Project() {
               {" "}
               <ul className="tech-list">
                 {" "}
-                <li>Ionic</li> <li>Capacitor</li> <li>Android Studio</li>
-                <li> Razorpay SDK</li>
-                <li>Google Maps API </li>
-                <li>Firebase</li>{" "}
+                <li>Ionic</li> <li>Android Studio</li>
+                <li> Razorpay SDK</li>{" "}
               </ul>{" "}
             </footer>
           </div>
@@ -125,7 +129,7 @@ export function Project() {
               {" "}
               <ul className="tech-list">
                 {" "}
-                <li>Angular</li> <li>TypeScript</li>{" "}
+                <li>Angular</li> <li>TypeScript</li>
                 <li>Google Translate API </li>{" "}
               </ul>{" "}
             </footer>
